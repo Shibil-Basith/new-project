@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+
+    <h2>Account Login</h2>
+    
+    <!-- The form tag groups all inputs together. 'action' is where the data goes, 'method' is how it sends. -->
+    <form action="/login-destination" method="POST">
+        
+        <!-- Username Field -->
+        <div>
+            <label for="username">Username or Email:</label><br>
+            <input type="text" id="username" name="username" required placeholder="Enter username">
+        </div>
+        
+        <br>
+
+        <!-- Password Field -->
+        <div>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required placeholder="Enter password">
+        </div>
+
+        <br>
+
+        <!-- Submit Button -->
+        <div>
+            <button type="submit">Sign In</button>
+        </div>
+
+    </form>
+
+    <br>
+    <p>Don't have an account? <a href="signup.html">Register here</a></p>
+
+</body>
+</html>
+
